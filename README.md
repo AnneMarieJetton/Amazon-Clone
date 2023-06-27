@@ -2,7 +2,7 @@
 A clone of the online superstore, Amazon. 
 
 To see this project deployed, visit https://clone-e9ba1.web.app/
-Login:
+Login ->
   email: example@example.com
   password: password
 
