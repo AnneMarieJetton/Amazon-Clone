@@ -1,0 +1,42 @@
+.prime {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+.prime__container {
+    position: absolute;
+    top: 50px;
+    z-index: 1;
+    width: 400px;
+    height: fit-content;
+    display: flex;
+    flex-direction:column;
+    border-radius:5px; border: 1px solid lightgray;
+    padding: 20px;
+    background-color: white;
+}
+
+.prime__container > h1 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.prime__container > ul {
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+.prime__spacer {
+    margin-top: 25px;
+}
+
+.prime__image {
+    width: 100%;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    z-index: -1;
+    margin-bottom: -150px
+}
